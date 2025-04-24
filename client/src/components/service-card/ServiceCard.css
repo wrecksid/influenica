@@ -1,0 +1,113 @@
+.service-card{
+    /* border: 1px solid #E9EEF4; */
+    border-radius: 8px;
+    /* max-width: 350px; */
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    background-color: #7474743b;
+    backdrop-filter: blur(10px);
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    /* background-image: linear-gradient(140deg, rgb(255, 255, 255) 0%, rgb(45, 182, 125) 80%); */
+    background-color: #fcfcfc1f;
+    backdrop-filter: blur(10px);
+    padding: 9px 11px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 3px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-card__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 100%;
+}
+
+.service-card__body__wrapper{
+    flex-grow: 1;
+
+}
+
+.service-card__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service___buttons{
+    padding: 2px;
+    margin-right: 5px;
+}
+.service-card__header__freelancer-info img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.service-card__header__freelancer-info{
+    display: flex;
+    align-items: center;
+}
+
+.service-card__header__freelancer-info p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    color: #f3ebeb;
+}
+
+.service-card__image img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card__wrapper .rating{
+    margin: 10px 0 10px 15px;
+}
+
+.service-card__title{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 0px 15px 0px 15px;
+}
+
+.service-card__price__wrapper{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: baseline; */
+    /* width: 100%; */
+    /* justify-content: flex-end; */
+    margin: 20px 15px 15px 15px;
+   
+}
+
+.service-card__price__wrapper p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    color: #d6b6b6;
+}
+
+.service-card__price{
+    font-size: 18px;
+    /* margin-left: 5px; */
+    font-weight: 700;
+    color: #2DB67C;
+}
+
+.service-card a{
+    width: 100%;
+}

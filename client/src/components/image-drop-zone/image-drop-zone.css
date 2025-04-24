@@ -1,0 +1,14 @@
+.inputPannel
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9cdead42;
+    border: none;
+    color: white;
+    width: 30rem;
+    
+}
+.inputPannel::placeholder
+{
+    color: white;
+}

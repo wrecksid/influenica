@@ -1,0 +1,19 @@
+.boooox{
+    /* background-color: aqua; */
+    background-color: #7474743b;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+.inputPayment
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9cdead42;
+    border: none;
+    color: white;
+    
+}
+.inputPayment::placeholder
+{
+    color: white;
+}
