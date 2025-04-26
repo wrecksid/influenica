@@ -63,11 +63,11 @@ const server = new ApolloServer({
   ],
 });
 
-// mongodb+srv://prashantkumar010704:DF1BVkeFJKihToqO@cluster0.sz4kf9w.mongodb.net/
+// mongodb+srv://sidhantbhagat113:PFswTALofsSXWvQW@cluster0.rgbddlo.mongodb.net/
 
 const db=connect(`mongodb+srv://
 ${process.env.MONGO_ATLAS_USER}:${process.env.MONGO_ATLAS_PW}
-@cluster0.sz4kf9w.mongodb.net/${process.env.MONGO_ATLAS_DB}?retryWrites=true&w=majority`)
+@cluster0.rgbddlo.mongodb.net/${process.env.MONGO_ATLAS_DB}?retryWrites=true&w=majority`)
   .then(() => {
     console.log('Connected to the database');
   })
